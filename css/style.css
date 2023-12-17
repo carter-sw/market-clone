@@ -3,6 +3,11 @@
 @import "footer.css";
 @import "main.css";
 
+:root{
+    --button-primary: rgb(254, 111, 15);
+    --button-hover:  rgba(254, 111, 15,0.8);
+}
+
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;;
 }
@@ -20,7 +25,7 @@ body{
     opacity: 0;
 }
 
-@media screen and (min-width: 380px){
+@media screen and (min-width: 500px){
     .media-info-msg{
         opacity: 1;
     }
